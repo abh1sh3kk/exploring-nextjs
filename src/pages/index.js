@@ -1,31 +1,47 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 
-export default function Home() {
-  const [users, setUsers] = useState([]);
+const Home = ({ serverTime, users }) => {
+  const [clientTime, setClientTime] = useState("");
+
   useEffect(() => {
-    const fetchUser = async () => {
-      const res = await fetch("https://jsonplaceholder.typicode.com/users");
-      const users = await res.json();
-      setUsers(users);
-    };
-    fetchUser();
+    const thisTime = `${new Date().toLocaleTimeString()}.`;
+    setClientTime(thisTime);
   }, []);
+
   return (
     <main>
-      <h1 className="text-xl mb-2">Data Fetching in Client</h1>
+      <h1 className="text-xl mb-2">Data Fetching in Server</h1>
+      <hr />
+      <div className="my-4">
+        <div>Server Time: {serverTime}</div>
+        <div>Client Time: {clientTime}</div>
+      </div>
       <hr />
       <ul className="flex-col">
         {users.map((user) => (
           <li key={user.id} className="py-1">
-            - {user.name}, {user.email}
+            {user.name}, {user.email}
           </li>
         ))}
       </ul>
-      <Link href="/test/try">
-        <button className="my-2">Goto TestTry</button>
+      <Link href="test/try">
+        <button className="my-2">Goto TryTest</button>
       </Link>
     </main>
   );
+};
+
+export default Home;
+
+export async function getServerSideProps() {
+  const res = await fetch("https://jsonplaceholder.typicode.com/users");
+  const users = await res.json();
+  const thisTime = new Date().toLocaleTimeString();
+  return {
+    props: {
+      serverTime: thisTime,
+      users,
+    },
+  };
 }
