@@ -33,8 +33,8 @@ function AboutUs() {
             Join Our Global Team
           </Title>
           <Text maw="450px" style={{ textAlign: "center" }}>
-            We're on a mission to help organizations efficiently manage their
-            brand identity at scale.
+            We&apos;re on a mission to help organizations efficiently manage
+            their brand identity at scale.
           </Text>
           <Button
             size="md"
@@ -67,19 +67,20 @@ function AboutUs() {
             p="md"
           >
             <Text size="lg" lh="inherit">
-              We're a passionate remote team building the future of Design
+              We&apos;re a passionate remote team building the future of Design
               Systems. We started in 2018 believing we could help organizations
-              unify their brand identity and today we're on a mission to become
-              the backbone of design & code decisions within an organization.
-              Since then, we hired more than 10 people and raised a total of 5
-              million euros.
+              unify their brand identity and today we&apos;re on a mission to
+              become the backbone of design & code decisions within an
+              organization. Since then, we hired more than 10 people and raised
+              a total of 5 million euros.
             </Text>
             <Text size="lg" lh="inherit">
-              And it's only the beginning. Joining Specify today is an amazing
-              opportunity for you to be part of a product that will innovate the
-              way companies operate their brand identity. We're product maniacs
-              and a design-centric startup that wish to build the greatest
-              remote team in the game. Wanna join the ride? 😎
+              And it&apos;s only the beginning. Joining Specify today is an
+              amazing opportunity for you to be part of a product that will
+              innovate the way companies operate their brand identity.
+              We&apos;re product maniacs and a design-centric startup that wish
+              to build the greatest remote team in the game. Wanna join the
+              ride? 😎
             </Text>
           </Flex>
         </Group>

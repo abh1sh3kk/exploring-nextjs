@@ -97,10 +97,10 @@ const CaseStudy = () => {
             <Text size="xl">Design System Designer</Text>
           </Stack>
           <Text size="xl" c="white">
-            "Specify brought us confidence and ease of mind. Before, we used to
-            be cautious and hesitant before updating our design tokens. We're
-            now confident about updating a token, rolling back to a previous
-            version, or even trying new ones."
+            &quot;Specify brought us confidence and ease of mind. Before, we
+            used to be cautious and hesitant before updating our design tokens.
+            We&apos;re now confident about updating a token, rolling back to a
+            previous version, or even trying new ones.&quot;
           </Text>
         </Stack>
       </Card>

@@ -1,4 +1,13 @@
-import { Menu, Group, Center, Burger, Container, Button } from "@mantine/core";
+import {
+  Menu,
+  Group,
+  Center,
+  Image,
+  Burger,
+  Container,
+  Button,
+} from "@mantine/core";
+import NextImage from "next/image";
 import { useDisclosure } from "@mantine/hooks";
 import { IconChevronDown } from "@tabler/icons";
 import classes from "./styles/HeaderMenu.module.css";
@@ -92,7 +101,7 @@ export default function HeaderMenu() {
     >
       <Container size="lg">
         <div className={classes.inner}>
-          <img src={Logo} height={24} />
+          <Image component={NextImage} alt="" src={Logo} height={24} />
           <Group gap={5} visibleFrom="sm">
             {items}
           </Group>
