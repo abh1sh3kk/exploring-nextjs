@@ -105,7 +105,9 @@ export default function Navbar() {
         position: "sticky",
         top: 0,
         zIndex: 5,
-        backgroundColor: "#151718",
+        // backgroundColor: "#151718",
+        // backgroundColor: "#ffffff08",
+        backdropFilter: "blur(25px)",
       }}
     >
       <header className={`${classes.header} `}>

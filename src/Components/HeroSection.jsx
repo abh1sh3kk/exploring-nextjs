@@ -14,6 +14,12 @@ import HeroImage from "@/assets/hero-img.webp";
 import { BsPlayCircleFill } from "react-icons/bs";
 import { RiLink } from "react-icons/ri";
 
+
+// ----------------------------------
+// color rough
+// primary button color: #9254f5;
+// ----------------------------------
+
 const HeroSection = () => {
   const rightIcon = <RiLink style={{ marginLeft: "0.2rem" }} fontSize={18} />;
   return (
@@ -29,6 +35,7 @@ const HeroSection = () => {
         component="p"
         className="badge"
         rightSection={rightIcon}
+        c="dimmed"
         fz="clamp(8px, 4vw, 18px)"
       >
         Introducing our Figma Variables compatibility
@@ -40,7 +47,7 @@ const HeroSection = () => {
         justify="center"
         className="hero-texts"
       >
-        <Title className="hero-text" align="center">
+        <Title className="hero-text" align="center" c="">
           Automate the distribution of your design tokens -
           <Text inherit className="highlight-gradient">
             your team will love it.

@@ -21,7 +21,12 @@ function HomePage() {
     <AppShell header={{ height: 60 }} padding="md">
       <Navbar />
 
-      <AppShell.Main p={{ base: "xl", sm: "5rem" }} className="main">
+      <AppShell.Main
+        p={{ base: "xl", sm: "5rem" }}
+        // color="white"
+        // bg="black"
+        className="main"
+      >
         <HeroSection />
 
         <Center

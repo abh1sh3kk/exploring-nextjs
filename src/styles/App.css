@@ -8,8 +8,8 @@
 }
 
 body {
-  background-color: #151718;
-  color: white;
+  /* background-color: #151718;
+  color: white; */
 }
 
 h1 {
@@ -44,7 +44,7 @@ h1 {
   /* border-radius: 2rem; */
   padding-inline: 0.5rem;
   font-weight: 500;
-  color: #c4c4c4;
+  /* color: #c4c4c4; */
   /* border-bottom: 1px solid white; */
   padding-bottom: 0.5rem;
 }
@@ -60,7 +60,7 @@ h1 {
 .secondary-btn {
   box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset,
     rgba(0, 0, 0, 0.08) 0px 1px 2px 0px, rgba(0, 0, 0, 0.06) 0px 4px 8px 0px;
-  background: transparent;
+  /* background: transparent; */
   border: 1px solid #ffffff73;
 }
 
@@ -72,7 +72,7 @@ h1 {
 
 .hero-text,
 .hero-text-secondary {
-  color: white;
+  /* color: white; */
 }
 
 .hero-text {
@@ -151,8 +151,8 @@ h1 {
 .carousel-section {
   user-select: none;
   width: 100%;
-  --swiper-pagination-color: white;
-  --swiper-pagination-bullet-inactive-color: white;
+  /* --swiper-pagination-color: white;
+  --swiper-pagination-bullet-inactive-color: white; */
 }
 
 .design-section {

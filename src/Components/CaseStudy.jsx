@@ -14,9 +14,9 @@ const CaseStudy = () => {
         direction={{ base: "column", md: "row" }}
         radius={12}
         className="case-study-card"
-        c="white"
+        // c="white"
         maw={800}
-        bg="transparent"
+        // bg="transparent"
         w="85vw"
       >
         {/* ---------------------Left---------------------------- */}
@@ -91,12 +91,12 @@ const CaseStudy = () => {
           p="xl"
         >
           <Stack gap={2}>
-            <Title order={3} c="white">
+            <Title order={3}>
               Jeremy Dahan
             </Title>
             <Text size="xl">Design System Designer</Text>
           </Stack>
-          <Text size="xl" c="white">
+          <Text size="xl">
             &quot;Specify brought us confidence and ease of mind. Before, we
             used to be cautious and hesitant before updating our design tokens.
             We&apos;re now confident about updating a token, rolling back to a

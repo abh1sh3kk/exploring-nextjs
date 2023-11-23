@@ -1,5 +1,5 @@
 import { Button, Image, Text, Card, Stack, Title } from "@mantine/core";
-import NextImage from "next/image"
+import NextImage from "next/image";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 
 const LongCard = ({ title, description, imageSrc, theme }) => {
@@ -19,8 +19,8 @@ const LongCard = ({ title, description, imageSrc, theme }) => {
 
   return (
     <Card
-      c="white"
-      bg={bgColor}
+      // c="white"
+      // bg={bgColor}
       style={{ border: "1px solid #7b7b7bd4" }}
       withBorder
       radius="lg"

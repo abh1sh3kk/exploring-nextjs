@@ -27,7 +27,7 @@ const theme = createTheme(themeObj);
 
 export default function App({ Component, pageProps }) {
   return (
-    <MantineProvider theme={theme}>
+    <MantineProvider theme={theme} defaultColorScheme="auto">
       <Component {...pageProps} />
     </MantineProvider>
   );
