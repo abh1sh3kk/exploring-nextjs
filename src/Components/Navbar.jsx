@@ -186,6 +186,7 @@ export default function Navbar() {
                 fz={14}
                 style={{ paddingInline: "0.8rem", height: "36px" }}
                 size="md"
+                variant="secondary"
                 className="secondary-btn"
               >
                 Sign In
@@ -257,6 +258,7 @@ export default function Navbar() {
               style={{ paddingInline: "0.8rem", height: "36px" }}
               size="md"
               className="secondary-btn"
+              variant="secondary"
             >
               Sign In
             </Button>

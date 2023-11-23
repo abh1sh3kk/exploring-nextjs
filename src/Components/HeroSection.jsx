@@ -14,7 +14,6 @@ import HeroImage from "@/assets/hero-img.webp";
 import { BsPlayCircleFill } from "react-icons/bs";
 import { RiLink } from "react-icons/ri";
 
-
 // ----------------------------------
 // color rough
 // primary button color: #9254f5;
@@ -47,7 +46,7 @@ const HeroSection = () => {
         justify="center"
         className="hero-texts"
       >
-        <Title className="hero-text" align="center" c="">
+        <Title className="hero-text" align="center">
           Automate the distribution of your design tokens -
           <Text inherit className="highlight-gradient">
             your team will love it.
@@ -69,16 +68,12 @@ const HeroSection = () => {
         >
           <Button
             size="md"
-            variant="gradient"
-            gradient={{
-              from: "rgba(223, 97, 255, 1)",
-              to: "violet",
-              deg: 173,
-            }}
+            variant="primary"
           >
             Book demo
           </Button>
           <Button
+            variant="secondary"
             size="md"
             className="secondary-btn"
             leftSection={<BsPlayCircleFill fontSize={18} />}
