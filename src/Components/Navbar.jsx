@@ -108,6 +108,7 @@ export default function Navbar() {
         // backgroundColor: "#151718",
         // backgroundColor: "#ffffff08",
         backdropFilter: "blur(25px)",
+        borderBottom: "1px solid #7171716b",
       }}
     >
       <header className={`${classes.header} `}>
@@ -116,9 +117,9 @@ export default function Navbar() {
             <Image src={Logo} alt="" height={24} />
 
             <Group h="100%" gap={0} visibleFrom="sm">
-              <a href="#" className={`inherit-font ${classes.link}`}>
+              <Link href="../" className={`inherit-font ${classes.link}`}>
                 Home
-              </a>
+              </Link>
               <HoverCard
                 width={800}
                 position="bottom"
@@ -176,9 +177,9 @@ export default function Navbar() {
                 Learn
               </a>
 
-              <a href="#" className={`inherit-font ${classes.link}`}>
+              <Link href="/About-Us" className={`inherit-font ${classes.link}`}>
                 About Us
-              </a>
+              </Link>
             </Group>
 
             <Group visibleFrom="sm">
@@ -225,9 +226,9 @@ export default function Navbar() {
         <ScrollArea h={`calc(100vh - ${rem(80)})`} mx="-sm">
           <Divider mb="sm" />
 
-          <a href="#" className={`inherit-font ${classes.link}`}>
+          <Link href="../" className={`inherit-font ${classes.link}`}>
             Home
-          </a>
+          </Link>
 
           <UnstyledButton className={classes.link} onClick={toggleLinks}>
             <Center inline>
