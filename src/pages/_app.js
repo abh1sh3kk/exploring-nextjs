@@ -1,7 +1,8 @@
 import "@/styles/globals.css";
 import "@mantine/core/styles.css";
 import "@/styles/App.css";
-import { MantineProvider, createTheme, rem } from "@mantine/core";
+import { Button, MantineProvider, createTheme, rem } from "@mantine/core";
+import classes from "@/styles/Button.module.css";
 
 const themeObj = {
   fontSizes: {
@@ -11,6 +12,11 @@ const themeObj = {
     "md-2": rem(15),
     lg: rem(16),
     xl: rem(20),
+  },
+  components: {
+    Button: Button.extend({
+      classNames: classes,
+    }),
   },
   headings: {
     FontFace: "Inter sans-serif",
@@ -27,7 +33,7 @@ const theme = createTheme(themeObj);
 
 export default function App({ Component, pageProps }) {
   return (
-    <MantineProvider theme={theme} defaultColorScheme="auto">
+    <MantineProvider theme={theme} defaultColorScheme="dark">
       <Component {...pageProps} />
     </MantineProvider>
   );
