@@ -14,7 +14,7 @@ const VideoFrame = () => {
         <Stack gap={4}>
           <Flex gap={8} align="center">
             <BsCollectionPlayFill color="#5f3dc4" />
-            <Title order={6}>Collect</Title>
+            <Title c="white" order={6}>Collect</Title>
           </Flex>
           <Text size="lg" align={{ md: "left" }}>
             Easily connect all your favorite tools to Specify to create a fully
@@ -25,7 +25,7 @@ const VideoFrame = () => {
         <Stack>
           <Flex gap={8} align="center">
             <RiStoreFill color="#5f3dc4" />
-            <Title order={6}>Store</Title>
+            <Title c="white" order={6}>Store</Title>
           </Flex>
           <Text size="lg">
             Create a single source of truth for your design tokens and assets
@@ -36,7 +36,7 @@ const VideoFrame = () => {
         <Stack>
           <Flex gap={8} align="center">
             <BsStopCircleFill color="#5f3dc4" />
-            <Title order={6}>Distribute</Title>
+            <Title order={6} c="white">Distribute</Title>
           </Flex>
           <Text size="lg">
             Quickly build a custom delivery pipeline that adapts to your

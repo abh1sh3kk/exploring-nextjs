@@ -35,7 +35,9 @@ const LongCard = ({ title, description, imageSrc, theme }) => {
         style={{ textAlign: "center" }}
         gap="lg"
       >
-        <Title order={2}>{title}</Title>
+        <Title c="white" order={2}>
+          {title}
+        </Title>
         <Text size="xl" c="dimmed">
           {description}
         </Text>

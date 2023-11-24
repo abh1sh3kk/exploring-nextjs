@@ -19,7 +19,7 @@ const DesignTokens = () => {
   ];
   return (
     <section className="section design-section">
-      <Title my="3rem" order={1} maw="800px" align="center" w="100%">
+      <Title c="white" my="3rem" order={1} maw="800px" align="center" w="100%">
         Design tokens are the heart of your design system
       </Title>
       <Flex gap="lg" align="center" justify="center" wrap="wrap">

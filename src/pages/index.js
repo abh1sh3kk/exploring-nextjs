@@ -42,7 +42,7 @@ function HomePage() {
             justify="center"
             className="second-hero hero-texts"
           >
-            <Title order={1} className="hero-text" align="center">
+            <Title c="white" order={1} className="hero-text" align="center">
               Improve your Continuous Design Data workflow
             </Title>
 
@@ -69,7 +69,7 @@ function HomePage() {
               >
                 Book demo
               </Button>
-              <Button size="md" className="secondary-btn">
+              <Button variant="secondary" size="md" className="secondary-btn">
                 Read Vision
               </Button>
             </Flex>
@@ -89,7 +89,7 @@ function HomePage() {
           className="hero-section"
         >
           <Stack align="center" justify="center" className="section hero-texts">
-            <Title order={1} className="hero-text" align="center">
+            <Title c="white" order={1} className="hero-text" align="center">
               Customize Specify to your needs
             </Title>
 
@@ -115,7 +115,7 @@ function HomePage() {
               >
                 Book demo
               </Button>
-              <Button size="md" className="secondary-btn">
+              <Button variant="secondary" size="md" className="secondary-btn">
                 Watch Video
               </Button>
             </Flex>

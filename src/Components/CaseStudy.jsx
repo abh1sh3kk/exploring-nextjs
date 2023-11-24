@@ -39,7 +39,7 @@ const CaseStudy = () => {
             gap="xl"
             style={{ position: "relative" }}
           >
-            <Title order={2}>Pitch</Title>
+            <Title order={2} c="white">Pitch</Title>
             {/* ----------------------Integrated and logos-------------- */}
             <Stack
               align="center"
@@ -91,7 +91,7 @@ const CaseStudy = () => {
           p="xl"
         >
           <Stack gap={2}>
-            <Title order={3}>
+            <Title c="white" order={3}>
               Jeremy Dahan
             </Title>
             <Text size="xl">Design System Designer</Text>
